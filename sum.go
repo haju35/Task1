@@ -1,7 +1,5 @@
 package main
-
 import "fmt"
-
 
 func sumOfIntegers(numbers []int) int{
 	if len(numbers) == 0{
@@ -13,7 +11,6 @@ func sumOfIntegers(numbers []int) int{
 		sum += n
 	}
 	return sum
-
 }
 
 func main(){
@@ -23,3 +20,4 @@ func main(){
 	fmt.Println(sumOfIntegers(num1))
 	fmt.Println(sumOfIntegers(num2))
 }
+
